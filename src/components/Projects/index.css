@@ -1,0 +1,93 @@
+.container {
+  font-family: 'Roboto';
+  width: 100%;
+}
+
+.website-logo {
+  width: 165px;
+  height: 60px;
+}
+
+.header-container {
+  padding: 22px 90px 22px 90px;
+  background-color: #f1f5f9;
+}
+
+.projects-view {
+  padding: 22px 90px 22px 90px;
+}
+
+.dropdown-container {
+  margin-bottom: 35px;
+  width: 420px;
+  background-color: #ffffff;
+  outline: none;
+  border: #cbd5e1 1px solid;
+  box-shadow: 1px 1px 1px #cbd5e1;
+  border-radius: 8px;
+  padding: 14px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.categories {
+  list-style-type: none;
+  padding: 0;
+}
+
+.category {
+  color: #475569;
+  font-weight: 500;
+}
+
+.loading-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.failure-view {
+  width: 450px;
+}
+
+.error-msg-1 {
+  color: #475569;
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.error-msg-2 {
+  color: #475569;
+  font-size: 13px;
+}
+
+.retry-button {
+  background-color: #328af2;
+  color: #ffffff;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: 'Roboto';
+  padding: 12px 33px 12px 33px;
+  border-radius: 6px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
